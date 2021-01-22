@@ -38,8 +38,8 @@
             consideram como baleias apenas os misticetos
         </strong>.
         </p>
-    
-        <div class="listas">
+    </div>
+        <div id="listas">
             <h2>Ingredientes:</h2>
             <div class="lista-ordenada">
                 <ol>
@@ -65,12 +65,15 @@
                 <h2>Glossário</h2>
                 <dl>
                     <dt>Hypertext</dt>
-                    <dd>É um hiper texto com possibilidade</dd>
+                    <dd>
+                        É um hiper texto com possibilidade você ser direcionada para outra 
+                        página. Nessa página estaram todos os dados que vc deseja encontrar.
+                    </dd>
                 </dl>
             </div>
         </div>
 
-        <div class="links">
+        <div id="links">
             <h2>Links</h2>
             <div class="link1">
                 <ul>
@@ -89,33 +92,122 @@
             </div>
         </div>
 
-        <div class="fragmentos">
-            <h2 id="about">Sobre Min</h2>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Minus hic asperiores reiciendis ipsum, possimus quod quaerat 
-                aliquid est quas, tenetur id quo dicta unde inventore delectus 
-                eos, architecto error consequuntur.
-            </p>
-            <h2 id="history">História</h2>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Minus hic asperiores reiciendis ipsum, possimus quod quaerat 
-                aliquid est quas, tenetur id quo dicta unde inventore delectus 
-                eos, architecto error consequuntur.
-            </p>
-            <h2 id="works">Trabalhos</h2>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Minus hic asperiores reiciendis ipsum, possimus quod quaerat 
-                aliquid est quas, tenetur id quo dicta unde inventore delectus 
-                eos, architecto error consequuntur.
-            </p>
-        </div>
-
-        <div id="tabelas">
-            
-        </div>
+    <div id="fragmentos">
+        <h2 id="about">Sobre Min</h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Minus hic asperiores reiciendis ipsum, possimus quod quaerat 
+            aliquid est quas, tenetur id quo dicta unde inventore delectus 
+            eos, architecto error consequuntur.
+        </p>
+        <h2 id="history">História</h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Minus hic asperiores reiciendis ipsum, possimus quod quaerat 
+            aliquid est quas, tenetur id quo dicta unde inventore delectus 
+            eos, architecto error consequuntur.
+        </p>
+        <h2 id="works">Trabalhos</h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Minus hic asperiores reiciendis ipsum, possimus quod quaerat 
+            aliquid est quas, tenetur id quo dicta unde inventore delectus 
+            eos, architecto error consequuntur.
+        </p>
     </div>
+
+    <div id="tabelas">
+        <h2>Tabelas</h2>
+        <h3>Tabela 1</h3>
+        <table id="tabela1">
+
+            <caption>Pessoas por idade </caption>
+
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mayk</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>Diego</td>
+                    <td>40</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th>
+                    <td>Total: </td>
+                    <td>2 Pessoas</td>
+                </th>
+            </tfoot>
+        </table>
+
+        <h3>Tabela 2</h3>
+        <table>
+
+            <caption>Produzidos x Vendidos por Loja</caption>
+
+            <colgroup>
+                <col>
+                <col span="2">
+                <col span="2">
+            </colgroup>
+
+            <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="2" scope="colgroup">Afonso Pena </th>
+                    <th colspan="2" scope="colgroup">Antonio Pereira</th>
+                </tr>
+    
+                <tr>
+                    <th scope="col">Produzidos</th>
+                    <th scope="col">Vendidos</th>
+                    <th scope="col">Produzidos</th>
+                    <th scope="col">Vendidos</th>
+                </tr>
+            </thead>
+
+
+            <tbody>
+                <tr>
+                    <th scope="row">Vassouras</th>
+                    <td>50</td>
+                    <td>20</td>
+                    <td>20</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <th scope="row">Pá</th>
+                    <td>50</td>
+                    <td>20</td>
+                    <td>20</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <th scope="row">Roudo</th>
+                    <td>50</td>
+                    <td>20</td>
+                    <td>20</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <th scope="row">Cloro</th>
+                    <td>50</td>
+                    <td>20</td>
+                    <td>20</td>
+                    <td>20</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    </div>
+    
 </body>
 </html>

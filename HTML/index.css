@@ -1,13 +1,13 @@
 body{
     background-color: #cacaca;
 }
-#corpo, .listas, .links, .fragmentos
+#corpo, #listas, #links, #fragmentos, #tabelas
 {
-    width: 70%;
+    width: 80%;
     height: 100%;
     margin: auto;
     background-color: #fff;
-    border: 10px solid #000;
+    border: 1px solid #000;
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -16,7 +16,7 @@ body{
     text-align: center;
 }
 #corpo p,
- .fragmentos p
+#fragmentos p
  {
     text-align: justify;
     margin: 0 30px;
@@ -30,23 +30,28 @@ body{
     text-decoration: none;
     color: #00f;
 }
-.listas h2, 
-.links h2,
-.fragmentos h2
+#listas h2, 
+#links h2,
+#fragmentos h2,
+#tabelas h2,
+#tabelas h3
 {
     margin-left: 30px;
     text-align: center;
 }
-.listas .lista-ordenada,
-.listas .lista-nao-ordenada
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.lista-descricao dl{
+    margin: 30px;
+    text-align: justify;
 }
-/* .listas .lista-ordenada ol,
-.listas .lista-nao-ordenada ul
+#tabelas table
 {
-    margin-left: 30px;
-} */
-
+    margin: 0 0 20px 30px;
+}
+#tabelas table thead tr th, #tabelas table tbody tr td,
+#tabelas table tbody tr th
+{
+    border: 1px solid #000;
+}
+caption{
+    font-weight: bold;
+}
