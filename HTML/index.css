@@ -1,16 +1,19 @@
 body{
     background-color: #cacaca;
 }
-#corpo{
+#corpo, .listas
+{
     width: 70%;
     height: 100%;
     margin: auto;
     background-color: #fff;
     border: 10px solid #000;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 #corpo h1 {
     margin-left: 30px;
+    text-align: center;
 }
 #corpo p{
     text-align: justify;
@@ -25,3 +28,20 @@ body{
     text-decoration: none;
     color: #00f;
 }
+.listas h2{
+    margin-left: 30px;
+    text-align: center;
+}
+.listas .lista-ordenada,
+.listas .lista-nao-ordenada
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .listas .lista-ordenada ol,
+.listas .lista-nao-ordenada ul
+{
+    margin-left: 30px;
+} */
+

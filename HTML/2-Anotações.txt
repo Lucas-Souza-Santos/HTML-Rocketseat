@@ -1,0 +1,21 @@
+-> Semântica
+
+    - Dar Significado
+    - Elementos semânticos
+
+-> Cabeçalhos e parágrafos
+
+
+-> Listas 
+    
+    - Ordenadas 
+    - não Ordenadas 
+
+-> Listas de descrição
+    - <dl>
+        <dt></dt>
+        <dd></dd>
+    </dl>
+
+
+
