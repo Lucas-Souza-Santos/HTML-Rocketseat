@@ -1,7 +1,7 @@
 body{
     background-color: #cacaca;
 }
-#corpo, .listas
+#corpo, .listas, .links, .fragmentos
 {
     width: 70%;
     height: 100%;
@@ -15,7 +15,9 @@ body{
     margin-left: 30px;
     text-align: center;
 }
-#corpo p{
+#corpo p,
+ .fragmentos p
+ {
     text-align: justify;
     margin: 0 30px;
     padding-bottom: 10px;
@@ -28,7 +30,10 @@ body{
     text-decoration: none;
     color: #00f;
 }
-.listas h2{
+.listas h2, 
+.links h2,
+.fragmentos h2
+{
     margin-left: 30px;
     text-align: center;
 }
