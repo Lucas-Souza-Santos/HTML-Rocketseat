@@ -1,0 +1,58 @@
+<h1>Testando o preview</h1>
+    <!-- 
+        Como escrever um cometário no HTML
+        Anatomia das tags 
+
+        - Abertura de tag 
+        - Fechamento de tag 
+        - informações extras 
+        - configurações
+    -->
+
+    <!--Elementos Vazios-->
+    <img src="" alt="">
+    <!--Atributo booleanos-->
+    <input type="text">
+
+    <!-- 
+        - Atributos Globais mais utilizados
+        - Classe 
+        - Contenteditable
+        - Data-*
+        - Hidden 
+        - Id
+        - Style 
+        - Tabindex 
+        - Title
+    -->
+
+    <!-- 
+        Aninhamento de tags 
+
+        - Fluxo
+        - Hieraquia 
+        - Posicionamento dos elementos
+    -->
+
+    <div class="carrinho" hidden>
+        carrinho
+    </div>
+
+    <!--
+        Vamos praticar 
+
+        Escrever 2 parágrafos, dando ênfase e importância para algumas 
+        palavras, e adicione um link de saiba mais.
+
+        - use a tag em para ênfase 
+        - use a tag strong para importância 
+        - o link pode levar para o google. 
+     -->
+
+     <!--
+        Conteúdo do texto e caracteres reservados. 
+     -->
+
+     <!-- 
+        Anatomia de um documento HTML
+     -->
